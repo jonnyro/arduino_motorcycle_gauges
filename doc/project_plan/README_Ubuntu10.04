@@ -1,0 +1,7 @@
+Suggested packages to build this document
+
+scons >= 2.0.1
+texlive-latex-recommended
+texlive-latex-extra
+gnuplot
+

@@ -1,0 +1,39 @@
+\documentclass[a4paper]{report}
+
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{fancyhdr}
+\usepackage{url}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+
+
+\fancyhead[L]{\includegraphics[scale=0.15]{global/project_logo.jpg}}
+\fancyhead[C]{}
+\fancyhead[R]{}
+
+% The path(s) to the graphics files:
+\graphicspath{{images/}{generated/}}
+
+% This LaTeX file contains some macros for the CC license page.
+\input{auxilliary/creativecommons}
+
+\begin{document}
+
+\title{Arduino Motorcycle Gauges}
+\author{Jonathan S. Romero}
+\date{\today}
+
+\include{chapters/TitlePage}
+
+\tableofcontents
+
+\include{chapters/introduction}
+
+
+
+\end{document}
