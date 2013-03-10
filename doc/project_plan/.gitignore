@@ -1,0 +1,7 @@
+*.dblite
+*.aux
+*.log
+*.fls
+*.toc
+*.pyc
+arduino_motorcycle_gauges.pdf
