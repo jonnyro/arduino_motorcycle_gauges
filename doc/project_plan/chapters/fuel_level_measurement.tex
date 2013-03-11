@@ -5,3 +5,9 @@ The fuel level measurement is implemented by means of a voltage divider\cite{som
 The sensor in the fuel tank is a variable resistor whose value varies from 0 to infinite as the fuel level goes from full to empty.
 
 The factory service manual indicates that the resistance will vary according to the following table.
+
+\csvreader[tabular=|l|l|,
+	table head=\hline & Resistance (Ohms) & Segments \\\hline,
+	late after line=\\\hline]%
+{FuelLevelSensorResistanceValues.csv}{resistance=\resistance,segments=\segments}%
+{\thecsvrow & \resistance & \segments}%
