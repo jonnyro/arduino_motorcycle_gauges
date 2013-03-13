@@ -1,0 +1,23 @@
+\chapter{Fuel Level Measurement}
+
+The fuel level measurement is implemented by means of a voltage divider
+
+The sensor in the fuel tank is a variable resistor whose value varies from 0 to infinite as the fuel level goes from full to empty, as is shown in Table~\ref{tab:fuelresistance}
+
+The factory service manual indicates that the resistance will vary according to the following table.
+
+\begin{table}
+\caption{Fuel Sensor Resistance versus Displayed Segments}
+\label{tab:fuelresistance}
+\vspace{10pt}
+\centering
+\CSVtotabular{tables/FuelLevelSensorResistanceValues.csv}{ll}{
+\bfseries Resistance &
+\bfseries Segments\\}{
+\insertbyname{Resistance} &
+\insertbyname{Segments}\\}{
+\insertbyname{Resistance} &
+\insertbyname{Segments}\\}
+\par
+\end{table}
+

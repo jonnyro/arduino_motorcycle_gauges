@@ -1,0 +1,23 @@
+\chapter{Bill of Materials}
+
+The sensor in the fuel tank is a variable resistor whose value varies from 0 to infinite as the fuel level goes from full to empty, as is 
+
+\begin{table}
+\caption{Top Level Bill of Materials}
+\label{tab:toplevelbom}
+\vspace{10pt}
+\centering
+\CSVtotabular{tables/TopLevelBOM.csv}{cll}{
+\bfseries Item&
+\bfseries Quantity&
+\bfseries Description\\}{
+\thecsvrownumber &
+\insertbyname{Quantity}&
+\insertbyname{Description}\\}{
+\thecsvrownumber &
+\insertbyname{Quantity}&
+\insertbyname{Description}\\}
+
+\par
+\end{table}
+
