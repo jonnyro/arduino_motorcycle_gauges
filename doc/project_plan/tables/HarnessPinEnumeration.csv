@@ -1,0 +1,17 @@
+Pin,Description
+1,Ignition
+2,Fuel Reserve Switch
+3,Unused
+4,Fuel Level Sensor
+5,Neutral Indicator Light Ground (-)
+6,FI Indicator Light (LED) Ground (-)
+7,Tachometer Pulse
+8,Water Temperature Warning Indicator Light (LED) Ground (-)
+9,Ground (-)
+10,Battery (+)
+11,Oil Pressure Warning Indicator Light Ground (-)
+12,Speed Sensor Supply Voltage
+13,Right Turn Signal Light (+)
+14,Left Turn Signal Indicator Light (+)
+15,High Beam Indicator (+)
+16,Speed Sensor Pulse
