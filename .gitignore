@@ -1,13 +1,10 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+*.dblite
+*.aux
+*.log
+*.fls
+*.toc
+*.pyc
+arduino_motorcycle_gauges.pdf
+*.backup
+*.dpl
+*.dat
