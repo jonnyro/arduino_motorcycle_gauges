@@ -1,0 +1,24 @@
+Does the meter assembly have to provide the input voltage to the speed sensor? Or is the lead that sends the voltage to the meter just so that the meter can determine if the speed sensor is connected.
+
+Relevant pages in factory service manual
+p156 - Speed sensor inspection
+p157 - indicated speed sensor output voltage, 0.05 - 0.07V DC at harness.  
+	
+
+Speed sensor pulse is at terminal 16.  
+
+Experiment Plan
+
+1. Load bike on stands
+2. Turn ignition switch on. Do not start bike
+3. Hook oscilliscope to pin 16 and ground
+4. Set 10x modifier on scope leads (10V will be read as 1V)
+5. Rotate wheel by hand
+6. Detected pulses?  If no, switch to 1X on oscilliscope leads. If yes go 8
+7. Repeat at step 5.
+8. Note oscilliscope peak readings
+
+
+
+
+
