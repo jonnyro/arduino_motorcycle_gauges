@@ -8,3 +8,4 @@ arduino_motorcycle_gauges.pdf
 *.backup
 *.dpl
 *.dat
+*.autosave
