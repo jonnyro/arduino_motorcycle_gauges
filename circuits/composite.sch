@@ -1,6 +1,6 @@
 <Qucs Schematic 0.0.15>
 <Properties>
-  <View=-207,-711,1115,625,1.43182,414,120>
+  <View=-207,-711,1115,776,1.43182,414,1260>
   <Grid=10,10,1>
   <DataSet=composite.dat>
   <DataDisplay=composite.dpl>
@@ -26,6 +26,7 @@
   <.PortSym -240 460 12 0>
   <.PortSym -240 500 13 0>
   <.PortSym -210 540 14 0>
+  <.PortSym -420 580 15 0>
 </Symbol>
 <Components>
   <R R6 1 650 360 15 -26 0 1 "10 kOhm" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
@@ -58,6 +59,7 @@
   <GND * 1 500 30 0 0 0 0>
   <Port FuelSensorVoltageMeasurement 1 160 120 -23 12 0 0 "14" 1 "analog" 0>
   <R R5 1 490 120 -26 -59 0 2 "100 Ohm" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
+  <Port SpeedSensorPulseRaw 1 160 610 -23 12 0 0 "15" 1 "analog" 0>
 </Components>
 <Wires>
   <650 390 650 420 "" 0 0 0 "">
